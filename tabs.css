@@ -5,16 +5,5 @@ body {
 
 .tab-pane {
     padding: 10px;
-}
-#home {
-    background-color: red;
-}
-
-#shop {
-    background-color: green;
-}
-
-#contact {
-    background-color: blue;
-    color: aliceblue;
+    background-color: #fff;
 }

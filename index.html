@@ -13,16 +13,14 @@
 <body id="page">
     <div class="container">
         <nav>
-            <ul id="tabs" class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#shop">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
+            <ul id="tabs" class="nav nav-pills mb-3">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+
+                <li class="nav-item"><a href="#shop" class="nav-link">Shop</a></li>
+
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+
+                <li class="nav-item"><a href="#newtab" class="nav-link">New Tab</a></li>
             </ul>
         </nav>
 
@@ -32,11 +30,8 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequuntur officia quisquam
                     repellendus sequi? Ad architecto aut dicta labore molestias nulla perferendis recusandae vel
                     veritatis.</p>
-                <p>
-                    <img src="img/Ham-Sandwich.jpg" alt="Ham sandwich" id="sandwich">
-                    <br>
-                    <button id="animateButton">Animate!</button>
-                </p>
+                <p><img src="img/Ham-Sandwich.jpg" alt="Ham sandwich" id="sandwich"><br>
+                    <button id="animateButton">Animate!</button></p>
             </div>
 
             <div id="shop" class="tab-pane">
@@ -51,6 +46,11 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aspernatur commodi deleniti
                     dignissimos dolores dolorum ea eum excepturi omnis, quos, repellat saepe sed soluta!</p>
                 <img src="img/die.png" alt="Six sided die" height="225" width="225"/>
+            </div>
+
+            <div id="newtab" class="tab-pane">
+                <h2>New Tab for class</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid aperiam assumenda, distinctio eaque, ipsam itaque labore magnam molestiae neque nobis praesentium temporibus vel, vero.</p>
             </div>
         </div>
     </div>
